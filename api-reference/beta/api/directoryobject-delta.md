@@ -109,7 +109,7 @@ The following is an example of the request. There is no `$select` parameter, so 
   "name": "directory_object_delta"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/directoryObjects/delta
 ```
 # [C#](#tab/csharp)
@@ -203,7 +203,7 @@ The next example shows the use of the alternative minimal response behavior:
   "name": "directoryObject_delta"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/directoryObjects/delta
 Prefer: return=minimal
 ```
@@ -275,7 +275,7 @@ The next example shows the initial request using the `isOf` operator to filter o
   "name": "directoryobject_delta"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/directoryObjects/delta?$filter=isOf('Microsoft.Graph.User')+or+isOf('Microsoft.Graph.Group')
 ```
 # [C#](#tab/csharp)

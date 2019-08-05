@@ -100,7 +100,7 @@ The following is an example of the request.
   "name": "reportroot_getoffice365groupsactivitycounts_csv"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/reports/getOffice365GroupsActivityCounts(period='D7')?$format=text/csv
 ```
 # [C#](#tab/csharp)
@@ -164,7 +164,7 @@ The following is an example of the request.
   "name": "reportroot_getoffice365groupsactivitycounts_json"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/reports/getOffice365GroupsActivityCounts(period='D7')?$format=application/json
 ```
 # [C#](#tab/csharp)

@@ -54,7 +54,7 @@ The following example shows a request to get all role assignments:
   "blockType": "request",
   "name": "get_privilegedroleassignments"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/privilegedRoleAssignments
 ```
 # [C#](#tab/csharp)
@@ -110,7 +110,7 @@ The following example shows a request to query active role assignments:
   "blockType": "request",
   "name": "get_privilegedroleassignments"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/privilegedRoleAssignments?$filter=isElevated%20eq%20true
 ```
 # [C#](#tab/csharp)
@@ -174,7 +174,7 @@ The following example shows a request to query permanent role assignments, where
   "blockType": "request",
   "name": "get_privilegedroleassignments"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/privilegedRoleAssignments?$filter=isElevated%20eq%20true%20and%20expirationDateTime%20eq%20null
 ```
 # [C#](#tab/csharp)
@@ -238,7 +238,7 @@ The following example shows a request to query eligible role assignments, includ
   "blockType": "request",
   "name": "get_privilegedroleassignments"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/privilegedRoleAssignments?$filter=isElevated%20eq%20true%20and%20expirationDateTime%20ne%20null%20or%20isElevated%20eq%20false
 ```
 # [C#](#tab/csharp)

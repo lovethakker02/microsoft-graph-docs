@@ -89,7 +89,7 @@ The following is an example of the request.
   "name": "reportroot_getskypeforbusinessparticipantactivityusercounts_csv"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/reports/getSkypeForBusinessParticipantActivityUserCounts(period='D7')?$format=text/csv
 ```
 # [C#](#tab/csharp)
@@ -153,7 +153,7 @@ The following is an example of the request.
   "name": "reportroot_getskypeforbusinessparticipantactivityusercounts_json"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/reports/getSkypeForBusinessParticipantActivityUserCounts(period='D7')?$format=application/json
 ```
 # [C#](#tab/csharp)

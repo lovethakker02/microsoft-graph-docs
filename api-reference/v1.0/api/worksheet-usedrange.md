@@ -23,7 +23,7 @@ One of the following permissions is required to call this API. To learn more, in
 
 # [HTTP](#tab/http)
 <!-- { "blockType": "ignored" } -->
-```http
+```msgraph-interactive
 GET /workbook/worksheets/{id|name}/usedRange
 
 ```
@@ -58,7 +58,7 @@ Here is an example of the request.
   "isComposable": true,
   "name": "worksheet_usedrange"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/me/drive/items/{id}/workbook/worksheets/{id|name}/usedRange
 ```
 # [C#](#tab/csharp)
@@ -89,7 +89,7 @@ Here is an example of the response. Note: The response object shown here may be 
   "truncated": true,
   "@odata.type": "microsoft.graph.workbookRange"
 } -->
-```http
+```msgraph-interactive
 HTTP/1.1 200 OK
 Content-type: application/json
 Content-length: 169
@@ -109,7 +109,7 @@ Here is an example of the request.
   "isComposable": true,
   "name": "worksheet_usedrange_valuesonly"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/me/drive/items/{id}/workbook/worksheets/{id|name}/usedRange(valuesOnly=true)
 ```
 # [C#](#tab/csharp)
